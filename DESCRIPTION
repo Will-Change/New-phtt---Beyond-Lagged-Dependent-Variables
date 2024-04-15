@@ -1,0 +1,24 @@
+Package: phtt
+Type: Package
+Title: Panel Data Analysis with Heterogeneous Time Trends
+Version: 3.2.0
+Date: 2023-05-30
+Authors@R: c(person(given  = "Dominik",  
+                    family = "Liebl",    
+                    email  = "r.packages.mail@gmail.com", 
+                    role   = c("aut", "cre")),
+             person(given  = "Oualid",  
+                    family = "Bada", 
+                    email  = "oualid_bada@hotmail.de",         
+                    role   = "aut"))
+Maintainer: Dominik Liebl <r.packages.mail@gmail.com>
+Depends: R (>= 3.5.0)
+Imports: pspline, glmnet, corpcor
+Description: The package provides estimation procedures for panel data with large dimensions n, T, and general forms of unobservable heterogeneous effects. Particularly, the estimation procedures are those of Bai (2009) and Kneip, Sickles, and Song (2012), which complement one another very well: both models assume the unobservable heterogeneous effects to have a factor structure. The method of Bai (2009) assumes that the factors are stationary, whereas the method of Kneip et al. (2012) allows the factors to be non-stationary. Additionally, the 'phtt' package provides a wide range of dimensionality criteria in order to estimate the number of the unobserved factors simultaneously with the remaining model parameters.
+License: GPL-2
+LazyLoad: yes
+NeedsCompilation: no
+RoxygenNote: 7.3.1
+urls:
+  reference: https://www.dliebl.com/R-package-phtt/
+  article: https://www.jstatsoft.org/index.php/jss/article/view/v059i06/768
